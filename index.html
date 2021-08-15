@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <h3>Please select at least three character types for your password</h3>         
+<!--THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters  -->
+    <form>Lower Case Letters</form>
+        <select id="lower">
+          <option value="yes">
+            Yes
+          </option>
+          <option value="no">
+            No
+          </option>
+        </select>
+    <form>Upper Case Letters</form>
+        <select id="upper">
+          <option value="yes">
+            Yes
+          </option>
+          <option value="no">
+            No
+          </option>
+        </select>
+    <form>Numbers</form>
+        <select id="numbers">
+          <option value="yes">
+            Yes
+          </option>
+          <option value="no">
+            No
+          </option>
+        </select>
+    <form>Special Characters</form>
+        <select id="special">
+          <option value="yes">
+            Yes
+          </option>
+          <option value="no">
+            No
+          </option>
+        </select>
+    <form>Choose password length of 8 to 128 characters</form>   
+        <input type="text" id="chosenLength"><br><br>
+        <button id="btn" class="generate">Generate Password</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
